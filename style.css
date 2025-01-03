@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "amazon-font", sans-serif;
+  color: white;
+}
+
+@font-face {
+  font-family: "amazon-font";
+  src: url("./assets/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_.woff2");
+}
+
+nav {
+  background: #131921;
+  width: 100%;
+  height: 4.2rem;
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-container {
+  padding: 7px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.icon-text {
+  font-size: 1rem;
+  padding-bottom: 5px;
+}
+
+.icon-container:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.icon-container img {
+  width: 6.5rem;
+  height: fit-content;
+}
+
+.address-container {
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 7px;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address-container:hover {
+  border: 1px solid white;
+}
+.location-icon-container {
+  font-size: 1.2rem;
+}
+
+.address-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.address-text :first-child {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.address-text :last-child {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+}
+
+.input-container {
+  width: 35rem;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container input {
+  width: 80%;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 11px;
+}
+
+.input-container input:focus {
+  outline: none;
+}
+
+.input-container input::placeholder {
+  font-size: 0.9rem;
+  font-weight: 540;
+}
+
+.input-container button {
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #f3a847;
+  padding: 11px;
+}
+
+.flag-container {
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.flag-container:hover {
+  border: 1px solid white;
+}
+
+.flag-icon-container img {
+  width: 1.5rem;
+  height: fit-content;
+}
+
+.flag-text-container {
+  padding-bottom: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drop-down img {
+  padding-top: 12px;
+  width: 1.4rem;
+}
+
+.user-greetings {
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-greetings .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.user-greetings .text-container :first-child {
+  font-size: 0.8rem;
+}
+
+.user-greetings:hover {
+  border: 1px solid white;
+}
+
+.returns {
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.returns:hover {
+  border: 1px solid white;
+}
+
+.returns .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.returns .text-container :first-child {
+  font-size: 0.8rem;
+}
+
+.carts {
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 10px;
+}
+
+.carts:hover {
+  border: 1px solid white;
+}
+
+.carts .cart-icon-container i {
+  font-size: 1.2rem;
+}
+
+.carts .cart-icon-container span {
+  color: #f3a847;
+}
+.cart-icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carts .text-container {
+  /* padding-top: 1.5rem; */
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
