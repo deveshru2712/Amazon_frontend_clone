@@ -99,10 +99,13 @@ nav {
 }
 
 .input-container input {
+  border: none;
   width: 80%;
   cursor: pointer;
   border-radius: 5px;
   padding: 11px;
+  box-shadow: 0 -4px 15px rgba(255, 165, 0, 0.7),
+    0 4px 15px rgba(255, 165, 0, 0.7);
 }
 
 .input-container input:focus {
@@ -242,4 +245,73 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* bottom-bav */
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  background: #232f3e;
+  height: 3rem;
+  color: white;
+  padding: 1rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid transparent;
+  gap: 0.4rem;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 4px;
+}
+
+.menu:hover {
+  border: 1px solid white;
+}
+
+.menu-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-icon-container i {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.menu-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.list-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-container li {
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  list-style: none;
+  padding: 5px;
+}
+
+.list-container li:hover {
+  border: 1px solid white;
+}
+
+.list-container li a {
+  text-decoration: none;
+  color: white;
 }
